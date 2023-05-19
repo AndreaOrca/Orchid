@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>OrcHid</title>		
+		<!-- Custom CSS file -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Icons -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+		<!-- Swiper CSS link  -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+	</head>
+	<body>
+		<button id="upward-arrow"><i class="fa-solid fa-arrow-up"></i></button>
+		<!-- Header Section -->
+		<header>
+			<div class="navbar">
+				<i class="fa-solid fa-bars navOpenBtn"></i>
+				<img src="images/logo.png" class="logo" />
+				<ul class="nav">
+					<i class="fa-solid fa-xmark navCloseBtn"></i>
+					<li><a class="active" href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="menu.html">Menu</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+				<div class="icon">
+					<div class="shop-box">
+						<i class="fa-sharp fa-solid fa-cart-shopping shop-icon"></i>
+						<span class="quantity">0</span>
+					</div>	
+					<div class="search-box">
+						<div class="searchToggle">
+							<i class="fa-solid fa-xmark close-icon"></i>
+							<i class="fa-solid fa-magnifying-glass search-icon"></i>
+						</div>
+						<div class="search-field">
+							<input type="text" placeholder="Search...">
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Shopping Cart -->
+		<div class="cartCard">
+			<div class="cartHeading">
+				<h1>My Cart</h1>
+				<div class="closeShopping">x</i></div>
+			</div>
+			<ul class="listCard">
+			</ul>
+			<div class="checkOut">
+				<div class="total">0</div>
+				<div class="buy">Buy Now</div>
+			</div>
+		</div>
+		<!-- Content -->
+		<div class="display">
+			<video src="videos/background.mp4" autoplay muted loop class="back-video"></video>
+			<div class="hero-content">
+				<h1>OrcHid by Mamada</h1>
+				<p>Satisfy Your Sweet Tooth with Our Freshly Baked Treats!</p>
+				<button class="btn">
+					<span class="circle">
+						<span class="arrow"></span>
+					</span>
+					<a class="text" href="menu.html"><span>Shop Now</span></a>
+				</button>
+			</div>
+			<div class="buttons">
+				<div class="socmed">
+					<a href="https://www.facebook.com/orchidbymamada/">
+					<div class="icon"><i class="fa-brands fa-facebook-f"></i></div>
+					<span>Facebook</span>
+				</a>
+				</div>
+				<div class="socmed">
+					<div class="icon"><i class="fa-brands fa-instagram"></i></div>
+					<span>Instagram</span>
+				</div>
+				<div class="socmed">
+					<div class="icon"><i class="fa-brands fa-twitter"></i></div>
+					<span>Twitter</span>
+				</div>
+			</div>
+		</div>
+
+		<!-- About Section -->
+		<div class="about-sec">
+			<div class="row">
+				<div class="col reveal">
+					<h1>Our pastries create an irresistible taste for everyone's taste buds</h1>
+					<p>
+						At our bakery, we're passionate about baking and creating delicious treats that bring joy to our customers. We started our bakery with a
+						simple goal: to share our love of baking with the world. Our journey began two years ago when our founder, Rodelia H. Orca, also known as
+						Mamada, started baking as a hobby. Over time, she developed her skills and began experimenting with different flavors and techniques. She
+						started selling her baked goods at local markets and events, and the response was overwhelmingly positive.
+					</p>
+					<a href="about.html"><button class="btn1">See More<i class="fa-solid fa-arrow-right lra"></i></i></i></i></i></button></a>
+				</div>
+				<div class="col1 reveal">
+					<div class="item">
+						<div class="item-img">
+							<img src="images/leaf.png" alt="fresh" />
+						</div>
+						<div class="item-text">
+							<h3>Freshness</h3>
+							<p>Our products are made from fresh, high-quality ingredients to ensure the best taste and texture.</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-img">
+							<img src="images/package.png" alt="package" />
+						</div>
+						<div class="item-text">
+							<h3>Packaging design</h3>
+							<p>Our packaging is distinctive, and it's also environmentally friendly and designed for sustainability.</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-img">
+							<img src="images/quality.png" alt="quality" />
+						</div>
+						<div class="item-text">
+							<h3>Best quality ingredients</h3>
+							<p>Our products are made from premium ingredients for a richer and more indulgent flavor profile.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Banner Section -->
+		<div class="banner">
+			<div class="overlay2">
+				<h1>"Don't Miss Out on Our Sweetest Deal Yet - <span>Get 20% Off All Baked Goods</span> Today!"</h1>
+			</div>
+		</div>
+
+		<!-- Menu Section -->
+		<div class="menu-sec">
+			<div class="heading">
+				<h1>Online Store</h1>
+				<h3>Menu</h3>
+			</div>
+			<div class="cont reveal">
+				<div class="categories">
+					<img src="images/cakes.jpg" alt="cake" />
+					<div class="cat-body">
+						<h1>Cake</h1>
+						<p>
+							We offer a variety of flavors, including classic vanilla, rich chocolate, and zesty lemon. We also have seasonal flavors, such as
+							pumpkin spice in the fall and peppermint in the winter.
+						</p>
+						<a href="menu.html"><button class="cat-btn">See more</button></a>
+					</div>
+				</div>
+				<div class="categories">
+					<img src="images/pastries.jpg" alt="pastry" />
+					<div class="cat-body">
+						<h1>Pastry</h1>
+						<p>
+							Our selection of pastries includes a variety of flavors and textures. We offer classic favorites like croissants, Danish pastries, and
+							turnovers, as well as more unique options like almond horns, macarons, and fruit tarts.
+						</p>
+						<a href="menu.html"><button class="cat-btn">See more</button></a>
+					</div>
+				</div>
+				<div class="categories">
+					<img src="images/muffins.jpg" alt="muffin" />
+					<div class="cat-body">
+						<h1>Muffin</h1>
+						<p>
+							We offer a variety of muffin flavors to suit every taste, from classic favorites like blueberry and chocolate chip to more unique
+							flavors like pumpkin spice and lemon poppyseed.
+						</p>
+						<a href="menu.html"><button class="cat-btn">See more</button></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="overlay"></div>
+
+		<!-- Gallery Section -->
+		<div class="gallery-sec">
+			<div class="heading">
+				<h1>Our Collections</h1>
+				<h3>Gallery</h3>
+			</div>
+			<div class="collections reveal">
+				<div class="pic">
+					<img src="images/collection4.jpg" alt="" />
+					<img src="images/collection.jpg" alt="" />
+					<img src="images/collection3.jpg" alt="" />
+					<img src="images/collection1.jpg" alt="" />
+					<img src="images/collection2.jpg" alt="" />
+				</div>
+			</div>
+			<div class="button1">
+				<a href="gallery.html"><button class="btn3">See More<i class="fa-solid fa-arrow-right lra"></i></button></a>
+			</div>
+		</div>
+
+		<!-- Testimonials Section -->
+		<div class="testimonial">
+			<div class="testi-sec mySwiper">
+				<div class="heading">
+					<h1>What Our Customers Say</h1>
+					<h3>Testimonials</h3>
+				</div>
+				<div class="testi-content swiper-wrapper">
+					<div class="slide swiper-slide reveal">
+						<p>
+							<i class="fa-solid fa-quote-left quote-icon"></i><br />
+							"I've been a loyal customer of this bakery for years, and I can honestly say that their baked goods are the best in town. The quality
+							and attention to detail are unmatched."
+						</p>
+
+						<img src="images/person.jpg" alt="" class="image" />
+						<div class="details">
+							<span class="name">Samantha Jones</span>
+							<span class="job">Student</span>
+						</div>
+					</div>
+					<div class="slide swiper-slide">
+						<p>
+							<i class="fa-solid fa-quote-left quote-icon"></i><br />
+							"I recently ordered a cake for a special occasion, and the bakery went above and beyond to make sure it was perfect. The communication
+							was excellent, and the final product was stunning."
+						</p>
+
+						<img src="images/person1.jpg" alt="" class="image" />
+						<div class="details">
+							<span class="name">Diego Rodriguez</span>
+							<span class="job">Student</span>
+						</div>
+					</div>
+					<div class="slide swiper-slide">
+						<p>
+							<i class="fa-solid fa-quote-left quote-icon"></i><br />
+							"I love the fact that this bakery uses natural ingredients and avoids artificial flavors and preservatives. You can really taste the
+							difference in the quality of their products."
+						</p>
+
+						<img src="images/person2.jpg" alt="" class="image" />
+						<div class="details">
+							<span class="name">Emily Patel</span>
+							<span class="job">Teacher</span>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-button-next arrow-btn"></div>
+				<div class="swiper-button-prev arrow-btn"></div>
+				<div class="swiper-pagination bullets"></div>
+			</div>
+		</div>
+
+		<!-- Footer Section -->
+		<footer>
+			<div class="footer-sec reveal">
+				<div class="left sec">
+					<h2>About</h2>
+					<p>
+						At our bakery, we're passionate about baking and creating delicious treats that bring joy to our customers. We started our bakery with a
+						simple goal: to share our love of baking with the world.
+					</p>
+					<ul class="social-links">
+						<li>
+							<a href="#"><i class="fa-brands fa-facebook-f sl"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa-brands fa-instagram sl"></i></a>
+						</li>
+						<li>
+							<a href=""><i class="fa-brands fa-twitter sl"></i></a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="center sec">
+					<h2>Quick Links</h2>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="menu.html">Menu</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+
+				<div class="right sec">
+					<h2>Contact Info</h2>
+					<ul class="info">
+						<li>
+							<span><i class="fa-solid fa-location-dot fa"></i></span>
+							<span>Olongapo City, Zambales 2200</span>
+						</li>
+						<li>
+							<span><i class="fa-solid fa-phone fa"></i></span>
+							<p><a href="tel:639876543210">+639876543210</a></p>
+						</li>
+
+						<li>
+							<span><i class="fa-solid fa-envelope fa"></i></span>
+							<p><a href="mailto:orchidbymamada@gmail.com">orchidbymamada@gmail.com</a></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="copyright">
+				<p>Copyright © 2023 Orchid. All right reserved.</p>
+			</div>
+		</footer>
+		<!-- Swiper JS link  -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+		<!-- Custom JS file  -->
+		<script src="script/reveal.js"></script>
+		<script src="script/nav.js"></script>
+		<script src="script/swiper1.js"></script>
+		<script src="script/scroll.js"></script>
+		<script src="script/cart.js"></script>
+	</body>
+</html>

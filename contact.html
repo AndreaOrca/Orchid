@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>OrcHid</title>
+		<!-- Custom CSS file -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Icons -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+	</head>
+	<body>
+		<button id="upward-arrow"><i class="fa-solid fa-arrow-up"></i></button>
+		<!-- Header -->
+		<header>
+			<div class="navbar" id="pages">
+				<i class="fa-solid fa-bars navOpenBtn"></i>
+				<img src="images/logo.png" class="logo" />
+				<ul class="nav">
+					<i class="fa-solid fa-xmark navCloseBtn"></i>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="menu.html">Menu</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a class="active" href="contact.html">Contact</a></li>
+				</ul>
+				<div class="icon">
+					<div class="shop-box">
+						<i class="fa-sharp fa-solid fa-cart-shopping shop-icon"></i>
+						<span class="quantity">0</span>
+					</div>
+					<div class="search-box">
+						<div class="searchToggle">
+							<i class="fa-solid fa-xmark close-icon"></i>
+							<i class="fa-solid fa-magnifying-glass search-icon"></i>
+						</div>
+						<div class="search-field">
+							<input type="text" placeholder="Search..." />
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- Shopping Cart -->
+		<div class="cartCard">
+			<div class="cartHeading">
+				<h1>My Cart</h1>
+				<div class="closeShopping">x</i></div>
+			</div>
+			<ul class="listCard">
+			</ul>
+			<div class="checkOut">
+				<div class="total">0</div>
+				<div class="buy">Buy Now</div>
+			</div>
+		</div>
+
+		<!-- Banner -->
+		<div class="bg" id="bg-contact">
+			<div class="bg-image">
+				<h1>Contact</h1>
+			</div>
+		</div>
+
+		<!-- Contact -->
+		<div class="contact">
+			<div class="content">
+				<div class="left-desc sec">
+					<span><i class="fa-solid fa-location-dot"></i></span><br /><br />
+					<h2>Location</h2>
+					<p>Olongapo City, Zambales 2200</p>
+				</div>
+				<div class="center-desc sec">
+					<span><i class="fa-solid fa-phone"></i></span><br /><br />
+					<h2>Phone</h2>
+					<p>+639876543210</p>
+				</div>
+				<div class="right-desc sec">
+					<span><i class="fa-solid fa-envelope"></i></span><br /><br />
+					<h2>Email</h2>
+					<p>orchidbymamada@gmail.com</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Map -->
+		<div class="map">
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123391.90689014783!2d120.26338495622797!3d14.881441131287852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396711b9c32216b%3A0xa080c3d36f2963a7!2sOlongapo%2C%20Zambales!5e0!3m2!1sen!2sph!4v1682258615892!5m2!1sen!2sph"
+				width="600"
+				height="450"
+				style="border: 0"
+				allowfullscreen=""
+				loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"
+			></iframe>
+		</div>
+
+		<!-- Messaging -->
+		<div class="message">
+			<div class="mes-cont">
+				<div class="text-cont">
+					<h1>Send Message</h1>
+					<p>Contact us</p>
+				</div>
+				<div class="message-input">
+					<div class="input-box">
+						<input type="text" placeholder="Name" />
+						<input type="text" placeholder="Email" />
+					</div>
+					<div class="input-box">
+						<textarea placeholder="Message"></textarea>
+					</div>
+					<div class="button3">
+						<button class="btn3">Submit<i class="uil uil-arrow-right ar"></i></button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer Section -->
+		<footer>
+			<div class="footer-sec">
+				<div class="left sec">
+					<h2>About</h2>
+					<p>
+						At our bakery, we're passionate about baking and creating delicious treats that bring joy to our customers. We started our bakery with a
+						simple goal: to share our love of baking with the world.
+					</p>
+					<ul class="social-links">
+						<li>
+							<a href="#"><i class="fa-brands fa-facebook-f sl"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa-brands fa-instagram sl"></i></a>
+						</li>
+						<li>
+							<a href=""><i class="fa-brands fa-twitter sl"></i></a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="center sec">
+					<h2>Quick Links</h2>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="menu.html">Menu</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+
+				<div class="right sec">
+					<h2>Contact Info</h2>
+					<ul class="info">
+						<li>
+							<span><i class="fa-solid fa-location-dot fa"></i></span>
+							<span>Olongapo City, Zambales 2200</span>
+						</li>
+						<li>
+							<span><i class="fa-solid fa-phone fa"></i></span>
+							<p><a href="tel:639876543210">+639876543210</a></p>
+						</li>
+
+						<li>
+							<span><i class="fa-solid fa-envelope fa"></i></span>
+							<p><a href="mailto:orchidbymamada@gmail.com">orchidbymamada@gmail.com</a></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="copyright">
+				<p>Copyright © 2023 Orchid. All right reserved.</p>
+			</div>
+		</footer>
+		<!-- custom JS file  -->
+		<script src="script/nav.js"></script>
+		<script src="script/scroll.js"></script>
+		<script src="script/cart.js"></script>
+	</body>
+</html>

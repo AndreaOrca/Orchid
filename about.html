@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>OrcHid</title>
+		<!-- Custom CSS file -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Icons -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+		<!-- Swiper CSS link  -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+	</head>
+	<body>
+		<button id="upward-arrow"><i class="fa-solid fa-arrow-up"></i></button>
+		<!-- Header -->
+		<header>
+			<div class="navbar" id="pages">
+				<i class="fa-solid fa-bars navOpenBtn"></i>
+				<img src="images/logo.png" class="logo" />
+				<ul class="nav">
+					<i class="fa-solid fa-xmark navCloseBtn"></i>
+					<li><a href="index.html">Home</a></li>
+					<li><a class="active" href="about.html">About Us</a></li>
+					<li><a href="menu.html">Menu</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+				<div class="icon">
+					<div class="shop-box">
+						<i class="fa-sharp fa-solid fa-cart-shopping shop-icon"></i>
+						<span class="quantity">0</span>
+					</div>
+					<div class="search-box">
+						<div class="searchToggle">
+							<i class="fa-solid fa-xmark close-icon"></i>
+							<i class="fa-solid fa-magnifying-glass search-icon"></i>
+						</div>
+						<div class="search-field">
+							<input type="text" placeholder="Search..." />
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- Shopping Cart -->
+		<div class="cartCard">
+			<div class="cartHeading">
+				<h1>My Cart</h1>
+				<div class="closeShopping">x</i></div>
+			</div>
+			<ul class="listCard">
+			</ul>
+			<div class="checkOut">
+				<div class="total">0</div>
+				<div class="buy">Buy Now</div>
+			</div>
+		</div>
+
+		<!-- Banner -->
+		<div class="bg" id="bg-about">
+			<div class="bg-image">
+				<h1>About Us</h1>
+			</div>
+		</div>
+
+		<!-- About -->
+		<div class="about-main">
+			<div class="about-cont">
+				<div class="top-cont">
+					<div class="about-text">	
+						<p>
+							At our bakery, we're passionate about baking and creating delicious treats that bring joy to our customers. We started our bakery with a
+							simple goal: to share our love of baking with the world. Our journey began two years ago when our founder, Rodelia H. Orca, also known
+							as Mamada, started baking as a hobby during the pandemic. Over time, she developed her skills and began experimenting with different
+							flavors and techniques. She started selling her baked goods at local markets and events, and the response was overwhelmingly positive.
+							Encouraged by her success, she decided to continue baking, and our business bloomed. Today, we're proud to offer a wide variety of baked
+							goods, from classic treats like chocolate chip cookies and cinnamon rolls to more unique offerings like matcha green tea cake and
+							gluten-free options. But at our bakery, it's not just about the food. We believe that baking is a way to bring people together and
+							create meaningful connections. That's why we're committed to using only the best ingredients and making everything from scratch. We want
+							our customers to taste the love and care that goes into every single one of our products. Thank you for taking the time to learn more
+							about us. We hope you'll come visit us soon and try some of our delicious baked goods.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="bottom-sec">
+				<div class="bottom-cont">
+					<div class="bottom-item">
+						<img src="images/leaf.png" alt="fresh" />
+						<div class="bottom-text">
+							<h3>Freshness</h3>
+							<p>Our products are made from fresh, high-quality ingredients to ensure the best taste and texture.</p>
+						</div>
+					</div>
+				</div>
+				<div class="bottom-cont">
+					<div class="bottom-item">
+						<img src="images/package.png" alt="fresh" />
+						<div class="bottom-text">
+							<h3>Packaging design</h3>
+							<p>Our packaging is distinctive, and it's also environmentally friendly and designed for sustainability.</p>
+						</div>
+					</div>
+				</div>
+				<div class="bottom-cont">
+					<div class="bottom-item">
+						<img src="images/quality.png" alt="fresh" />
+						<div class="bottom-text">
+							<h3>Best quality ingredients</h3>
+							<p>Our products are made from premium ingredients for a richer and more indulgent flavor profile.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Testimonials -->
+		<div class="testi-container">
+			<div class="heading">
+				<h2>Our Customers' Reviews</h2>
+			</div>
+			<div class="testi-cards">
+				<div class="testi-card">
+					<div class="avatar">
+						<img src="images/person.jpg" alt="" />
+					</div>
+					<div class="card-body">
+						<p>
+							"I've been a loyal customer of this bakery for years, and I can honestly say that their baked goods are the best in town. The quality
+							and attention to detail are unmatched."
+						</p>
+					</div>
+					<div class="card-info">
+						<h1>Samantha Jones</h1>
+						<p>Student</p>
+					</div>
+				</div>
+				<div class="testi-card">
+					<div class="avatar">
+						<img src="images/person1.jpg" alt="" />
+					</div>
+					<div class="card-body">
+						<p>
+							"I recently ordered a cake for a special occasion, and the bakery went above and beyond to make sure it was perfect. The communication
+							was excellent, and the final product was stunning."
+						</p>
+					</div>
+					<div class="card-info">
+						<h1>Diego Rodriguez</h1>
+						<p>Student</p>
+					</div>
+				</div>
+				<div class="testi-card">
+					<div class="avatar">
+						<img src="images/person2.jpg" alt="" />
+					</div>
+					<div class="card-body">
+						<p>
+							"I love the fact that this bakery uses natural ingredients and avoids artificial flavors and preservatives. You can really taste the
+							difference in the quality of their products."
+						</p>
+					</div>
+					<div class="card-info">
+						<h1>Emily Patel</h1>
+						<p>Teacher</p>
+					</div>
+				</div>
+				<div class="testi-card">
+					<div class="avatar">
+						<img src="images/person3.jpg" alt="" />
+					</div>
+					<div class="card-body">
+						<p>
+							"I recently ordered a birthday cake from this bakery and it was absolutely delicious! The cake was moist and the frosting was perfect -
+							not too sweet. Everyone at the party loved it. I will definitely be ordering from here again."
+						</p>
+					</div>
+					<div class="card-info">
+						<h1>Olivia Thompson</h1>
+						<p>Marketer</p>
+					</div>
+				</div>
+				<div class="testi-card">
+					<div class="avatar">
+						<img src="images/person4.jpg" alt="" />
+					</div>
+					<div class="card-body">
+						<p>
+							"I was blown away by this bakery's selection of baked goods. Everything looked so delicious that it was hard to choose. I ended up
+							getting a baguette and some macarons and both were amazing. I can't wait to come back and try more!"
+						</p>
+					</div>
+					<div class="card-info">
+						<h1>Ethan Chen</h1>
+						<p>IT Expert</p>
+					</div>
+				</div>
+				<div class="testi-card">
+					<div class="avatar">
+						<img src="images/person5.jpg" alt="" />
+					</div>
+					<div class="card-body">
+						<p>
+							"I'm so glad I discovered this bakery! The gluten-free options at this bakery are amazing and their bread is freshly baked and has the
+							perfect crust and texture. I especially love their sourdough bread. Highly recommend!"
+						</p>
+					</div>
+					<div class="card-info">
+						<h1>Isabelle Garcia</h1>
+						<p>Student</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Messaging -->
+		<div class="message" id="message-bg">
+			<div class="mes-cont">
+				<div class="text-cont">
+					<h1>Leave your Review</h1>
+					<p>Feedback</p>
+					<div class="word">
+						<p>Do you have any feedback or suggestions for improvement?</p>
+					</div>
+				</div>
+				<div class="message-input">
+					<div class="input-box">
+						<input type="text" placeholder="Name" />
+						<input type="text" placeholder="Email" />
+					</div>
+					<div class="input-box">
+						<textarea placeholder="Message"></textarea>
+					</div>
+					<div class="button3">
+						<button class="btn3">Submit<i class="uil uil-arrow-right ar"></i></button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer Section -->
+		<footer>
+			<div class="footer-sec">
+				<div class="left sec">
+					<h2>About</h2>
+					<p>
+						At our bakery, we're passionate about baking and creating delicious treats that bring joy to our customers. We started our bakery with a
+						simple goal: to share our love of baking with the world.
+					</p>
+					<ul class="social-links">
+						<li>
+							<a href="#"><i class="fa-brands fa-facebook-f sl"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa-brands fa-instagram sl"></i></a>
+						</li>
+						<li>
+							<a href=""><i class="fa-brands fa-twitter sl"></i></a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="center sec">
+					<h2>Quick Links</h2>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="menu.html">Menu</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="contact.html">Contact</a></li>
+				</div>
+
+				<div class="right sec">
+					<h2>Contact Info</h2>
+					<ul class="info">
+						<li>
+							<span><i class="fa-solid fa-location-dot fa"></i></span>
+							<span>Olongapo City, Zambales 2200</span>
+						</li>
+						<li>
+							<span><i class="fa-solid fa-phone fa"></i></span>
+							<p><a href="tel:639876543210">+639876543210</a></p>
+						</li>
+
+						<li>
+							<span><i class="fa-solid fa-envelope fa"></i></span>
+							<p><a href="mailto:orchidbymamada@gmail.com">orchidbymamada@gmail.com</a></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="copyright">
+				<p>Copyright © 2023 Orchid. All right reserved.</p>
+			</div>
+		</footer>
+
+		<!-- Swiper JS link  -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+		<!-- custom JS file  -->
+		<script src="script/nav.js"></script>
+		<script src="script/scroll.js"></script>
+		<script src="script/cart.js"></script>
+	</body>
+</html>
